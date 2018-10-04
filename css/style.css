@@ -1,0 +1,179 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*header start*/
+header {
+	background-color: #A8423E;
+
+}
+.wrapper {
+	/*border:3px solid green;*/
+	width:70%;
+	margin:0 auto;
+	overflow:hidden;
+	min-height: 80px;
+}
+
+.logo {
+	/*border:3px solid yellow;*/
+	float:left;
+	width:30%;
+	color:white;
+
+}
+.logo h1{
+	color:white;
+	font-family: 'Pacifico', cursive;
+	/*width:50%;*/
+	margin-top:15px;
+}
+
+.menu {
+	/*border:3px solid red;*/
+	float:right;
+}
+.menu ul{
+	float:left;
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	margin-top:25px;
+	padding:5px 30px;
+	display:block;
+	color:white;
+	font-family:sans-serif;
+	font-size:20px;
+	transition:.5s;
+}
+.menu ul li a:hover{
+	color:red;
+}
+/*header end*/
+/*banner start*/
+.banner {
+	background-color:#A4B8B7;
+	width:;
+	min-height: 430px;
+	
+}
+
+.wrapper {
+}
+.banner-content{
+    text-align:center
+    /*margin-top:10px;*/
+
+
+
+}
+
+.banner-content p {
+	padding: 50px;
+    font-size: 30px;
+    margin-top: 70px;
+
+	
+}
+.banner-content h1{
+	font-size:80px;
+	
+}
+/*banner end*/
+/*service start*/
+.wrapper{
+	margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+.service{
+	background-color:#584E4D;
+	padding:50px 0;
+}
+.single {
+	background-color: #E2DDDA;
+	/*border:2px solid white;*/
+	width: 20%;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.title {
+	overflow: hidden;
+
+
+}
+
+.icon {
+	width:20%;
+	/*border:1px solid black;*/
+	float:left;
+}
+
+.icon-content {
+	width:65%;
+	color:#D58A39;
+	margin-top:20px;
+	/*border:1px solid blue;*/
+	float:left;
+
+}
+
+.content {
+}
+.icon img{
+	width:100%;
+}
+.icon-content h1{}
+.content p{
+	padding-left:5px;
+
+}
+.content button{
+	    color: white;
+    margin: 20px;
+    background-color: #D58A39;
+    width: 50%;
+    min-height: 30px;
+    margin-left: 60px;
+    font-size: 18px
+
+}
+
+
+/*service end*/
+/*footer start*/
+.footer {
+	background-color:#584E4D;
+	min-height: 200px;
+}
+
+.footer-wrapper {
+	background-color:#A73F3C;
+	width:80%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+
+.footer-content {
+	padding:50px;
+	float:left;
+}
+.footer-content img{
+	float:left;
+}
+.footer-content p{
+	float: left;
+    
+    color: white;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+/*footer end*/
